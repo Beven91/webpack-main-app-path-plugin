@@ -1,10 +1,13 @@
 {
   "name": "webpack-main-app-path-plugin",
   "version": "1.0.0",
-  "description": "webpack scoped public path",
+  "description": "webpack main app path",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "optionalDependencies": {
     "webpack": "^5.33.2"
